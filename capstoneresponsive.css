@@ -1,0 +1,321 @@
+@media only screen and (max-width: 640px) {
+    .menubar {
+        width: 100%;
+    }
+    .icon {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        display: inline-block;
+        font-size: 50px;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        font-family: roboto;
+        font-size: 24px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+      .dropdown-content a:hover {
+        background-color: #2490cf;
+    }
+    .icon:hover .dropdown-content {
+        display: block;
+    }
+    li a, .dropbtn {
+        display: inline-block;
+        color: rgb(8, 7, 8);
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+    .whyus {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .register {
+        left: 340px;
+    }
+    .form{
+        position: absolute;
+        float: none;
+        width:400px ;
+        top: 00px;
+        left: 0px;
+        padding: 10px;
+}
+    .post {
+        position: absolute;
+        float: none;
+        width:400px ;
+        top: 500px;
+        left: 100px;
+        padding: 10px;
+    }
+    .detail{
+        left: 20px;
+    }
+    .cancel{
+        position: relative;
+        left: -25px;
+    }
+    .submit{
+        left: 20px;
+        left: -25px;
+    }
+    .have{
+        position: relative;
+        left: 20px;
+        left: -25px;
+    }
+    .signin{
+        position: relative;
+        left: 20px;
+        left: -25px;
+    }
+    .lorem {
+        position: relative;
+        top: 100px;
+        left: 110px;
+    }
+    .bold {
+        line-height: 1.3;
+    }
+    .unbold{
+        top: 200px;
+    }
+
+    .image {
+        position: relative;
+        top: 380px;
+        width: 640px;
+        margin: 0px;
+    }
+    .d1 {
+        position: relative;
+        width: 100%;
+        display: block;
+        border: none;
+    }
+    .d1 p {
+        margin-left: 10px;
+    }
+    .d1 img {
+        margin: 10px 70px 0px 100px;
+        position: relative;
+        width: 450px;
+    }
+    
+    .d2 {
+        display: block;
+        position: relative;
+        width: 100%;    
+        border: none;
+        left: 0px;
+    }
+    .d2 p {
+        text-align: left;
+    }
+    .d2 img {
+        position: relative;
+        margin: 50px 70px 0px 100px;
+    }
+    .d3 {
+        position: relative;
+        display: block;
+        width: 100%;  
+        border: none;
+        left: 0px;
+    }
+    .d3 img {
+        margin: 50px 70px 0px 100px;
+        position: relative;
+    }
+    .d3 p{
+        text-align: left;
+    }
+    .d4 {
+        position: relative;
+        display: block;
+        width: 100%;
+        left: 0px;
+        border: none;
+    }
+    .d4 img {
+        margin: 50px 70px 0px 100px;
+        position: relative;
+    }
+    .d4 p{
+        text-align: left;
+    }
+    .simply span {
+        color: #29B67F;
+    }
+    .simply {
+        position: relative;
+        top: 0px;
+        width: 400px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 59px;
+        text-transform: capitalize;
+        color: #172233;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    #a{
+        text-align: left;
+        margin-left: 100px;
+    }
+    #b {
+        text-align: left;
+        margin-left: 100px;
+    }
+    #c {
+        text-align: left;
+        margin-left: 100px;
+    }
+    #d {
+        text-align: left;
+        margin-left: 100px;
+    }
+    .simply1 {
+        position: relative;
+        width: 500px;
+        margin: 0px 30px 0px 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: left;
+        color: #828282;
+    }
+
+    .dummy {
+        position: relative;
+        top: 400px;
+        width: 640px;
+        height: 800px;
+    }
+    .dummy img {
+        position:absolute;
+        margin-top: 20px;
+        top: 0px;
+        width: 400px;
+        height: 400px;
+        left: 70px;
+    }
+    .white11 {
+        top:400px;
+    }
+
+    .signup {
+        position: relative;
+        top: 350px;
+        width: 640px;
+        
+    }
+    .a{
+        width: 640px;
+        top: 20px;
+        left: 0px;
+        position: relative;
+    }
+    .b {
+        top: 0px;
+        left: 0px;
+        width: 400px;
+        position: relative;
+        margin-left: 110px;
+    }
+    .button {
+        position: relative;
+        left: 200px;
+        top: 40px;
+    }
+
+    .ram {
+        position: relative;
+        top:400px;
+        width: 640px;
+        height: 850px;
+    }
+    .ram4 {
+        position: relative;
+        width: 440px;
+        top: 440px;
+    }
+    .ram1{
+        left: 100px;
+        top: -390px;
+        height: 400px;
+        width: 400px;
+    }
+
+    .rama {
+        top:400px;
+        width: 640px;
+        height: 800px;
+    }
+    .circle {
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .rama2 {
+        margin: 0px 10px 20px 15px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 126.19%;
+        color: #FFFFFF;
+    }
+    .rama1{
+        height: 350px;
+        top: 60px;
+        width: 400px;
+        left: 100px;
+    }
+    .rama4 {
+        left:0px;
+        top: 450px;
+    }
+    .rama3 {
+        margin: 0px 10px 0px 20px;
+    }
+    .footer {
+        top:400px;
+        margin:0px 0px 20px 0px;
+        width: 30%;
+    }
+
+    .footer a { 
+        position: relative;
+        display: inline-block;
+        margin: 15px 15px 0px 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 131.19%;
+    /* or 31px */
+        color: #757575;
+    }
+}
